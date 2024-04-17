@@ -26,8 +26,7 @@ What it does: EDA is conducted to understand the data better. This involves gene
 
 **Applying Principal Component Analysis (PCA)**
 
-What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old statistics book.
-
+What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old Statistics book from High Schoolc (insert eye roll).
 
 
 **Clustering with K-Means**
