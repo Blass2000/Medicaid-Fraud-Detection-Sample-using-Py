@@ -8,35 +8,39 @@ This type of fraud can occur at multiple levels, including providers submitting 
 
 # Explination of the Py Code
 
-#Importing Libraries#
+**Importing Libraries**
 
-What it does: This step involves loading necessary Python libraries that will be used throughout the notebook. These libraries include pandas for data manipulation, matplotlib and seaborn for data visualization, and sklearn for machine learning tasks.
+What it does: This step involves loading necessary Python libraries that will be used throughout the notebook. These libraries include pandas for data manipulation, matplotlib and seaborn for data visualization, and sklearn for machine learning tasks. 
 
-#Loading the Data#
+**Loading the Data**
 
-What it does: Here, the data which contains Medicaid billing information is loaded into a DataFrame (a tabular data structure in pandas). This step is crucial for accessing and manipulating the data in subsequent steps.
+What it does: In this step, the data which contains Medicaid billing information is loaded into a DataFrame (a tabular data structure in pandas). This step is crucial for accessing and manipulating the data in subsequent steps. LOL! by the way , I am fully aware that claims data is not this sweet and simple but, this is just an example. 
 
-#Data Preprocessing#
+**Data Preprocessing**
 
 What it does: This step cleans and prepares the data for analysis. It may involve handling missing values, encoding categorical variables, and selecting relevant features (columns) that are necessary for the analysis.
 
-#Exploratory Data Analysis (EDA)#
+**Exploratory Data Analysis (EDA)**
 
 What it does: EDA is conducted to understand the data better. This involves generating summary statistics, and creating visualizations like histograms or scatter plots to observe distributions and relationships in the data.
 
-Applying Principal Component Analysis (PCA)
+**Applying Principal Component Analysis (PCA)**
 
-What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information.
-Clustering with K-Means
+What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old statistics book.
+
+**Clustering with K-Means**
 
 What it does: After reducing dimensionality, K-Means Clustering is applied. This is an unsupervised machine learning algorithm that partitions the data into clusters (groups) based on similarity. In the context of fraud detection, these clusters might help identify patterns or anomalies indicative of fraudulent activities.
-Analyzing Clusters
+
+**Analyzing Clusters**
 
 What it does: This step involves examining the characteristics of each cluster formed by K-Means. The analysis might look for unusual patterns or outliers in clusters that could suggest fraudulent behavior.
-Visualization of Clusters
+
+**Visualization of Clusters**
 
 What it does: The final clusters are visualized using plots. Visualizations can help in intuitively understanding the structure of the data and the distribution of the clusters. This is helpful for presenting findings to stakeholders who may not be familiar with technical details.
-Conclusion and Next Steps
+
+**Conclusion and Next Steps**
 
 What it does: The notebook concludes with a summary of findings and recommendations for further analysis or operational steps to address Medicaid fraud.
 This notebook serves as a practical example of how data science techniques can be employed to address significant issues like Medicaid fraud, using real data and machine learning methods to uncover potentially fraudulent patterns.
