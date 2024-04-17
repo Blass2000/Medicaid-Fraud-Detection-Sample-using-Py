@@ -28,6 +28,9 @@ What it does: EDA is conducted to understand the data better. This involves gene
 
 What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old statistics book.
 
+![image](https://github.com/Blass2000/Medicaid-Fraud-Detection-Sample-using-Py/assets/89789502/b60a18dc-16c7-4689-a71a-58a95f05a485)
+
+
 **Clustering with K-Means**
 
 What it does: After reducing dimensionality, K-Means Clustering is applied. This is an unsupervised machine learning algorithm that partitions the data into clusters (groups) based on similarity. In the context of fraud detection, these clusters might help identify patterns or anomalies indicative of fraudulent activities.
