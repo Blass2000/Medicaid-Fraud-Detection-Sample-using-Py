@@ -8,18 +8,22 @@ This type of fraud can occur at multiple levels, including providers submitting 
 
 # Explination of the Py Code
 
-Importing Libraries
+#Importing Libraries#
 
 What it does: This step involves loading necessary Python libraries that will be used throughout the notebook. These libraries include pandas for data manipulation, matplotlib and seaborn for data visualization, and sklearn for machine learning tasks.
-Loading the Data
+
+#Loading the Data#
 
 What it does: Here, the data which contains Medicaid billing information is loaded into a DataFrame (a tabular data structure in pandas). This step is crucial for accessing and manipulating the data in subsequent steps.
-Data Preprocessing
+
+#Data Preprocessing#
 
 What it does: This step cleans and prepares the data for analysis. It may involve handling missing values, encoding categorical variables, and selecting relevant features (columns) that are necessary for the analysis.
-Exploratory Data Analysis (EDA)
+
+#Exploratory Data Analysis (EDA)#
 
 What it does: EDA is conducted to understand the data better. This involves generating summary statistics, and creating visualizations like histograms or scatter plots to observe distributions and relationships in the data.
+
 Applying Principal Component Analysis (PCA)
 
 What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information.
