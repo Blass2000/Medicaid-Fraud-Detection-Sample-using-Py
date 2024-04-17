@@ -1,4 +1,4 @@
-# Medicaid-Fraud-Detection-Sample-using-Py
+# Medicaid-Fraud-Detection-Sample-using-Python Script
 Sample Fraud detection scrip using Py
 
 Medicaid fraud in the United States represents a significant and pervasive challenge to the healthcare system, diverting billions of dollars each year from vulnerable populations who depend on this critical safety net. As a federally and state-funded program, Medicaid provides health insurance to low-income individuals and families, making it an essential component of America’s health care structure. However, its broad reach and complex funding mechanisms also make it a prime target for fraud.
