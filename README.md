@@ -28,7 +28,6 @@ What it does: EDA is conducted to understand the data better. This involves gene
 
 What it does: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old statistics book.
 
-![image](https://github.com/Blass2000/Medicaid-Fraud-Detection-Sample-using-Py/assets/89789502/b60a18dc-16c7-4689-a71a-58a95f05a485)
 
 
 **Clustering with K-Means**
@@ -42,6 +41,10 @@ What it does: This step involves examining the characteristics of each cluster f
 **Visualization of Clusters**
 
 What it does: The final clusters are visualized using plots. Visualizations can help in intuitively understanding the structure of the data and the distribution of the clusters. This is helpful for presenting findings to stakeholders who may not be familiar with technical details.
+
+![image](https://github.com/Blass2000/Medicaid-Fraud-Detection-Sample-using-Py/assets/89789502/b60a18dc-16c7-4689-a71a-58a95f05a485)
+
+
 
 **Conclusion and Next Steps**
 
