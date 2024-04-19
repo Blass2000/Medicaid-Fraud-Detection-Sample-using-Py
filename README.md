@@ -5,7 +5,7 @@ Medicaid fraud in the United States represents a significant and pervasive chall
 
 This type of fraud can occur at multiple levels, including providers submitting false claims, patients misrepresenting eligibility, and even organized crime groups exploiting systemic vulnerabilities. The consequences are profound, not only in terms of financial loss but also in undermining the integrity of a program that millions rely on for basic medical services. I have worked developing reports and building out a fraud dection system for a major healthcare company and there are many ways to tackle fraud. Our goal as technologists and those whom are in this industry is to shed light on the critical importance of safeguarding these funds and ensuring they serve their intended purpose: to assist the nation’s most economically disadvantaged citizens in receiving proper health care. Here is an example of how this can be done- - 
 
-In my sample, I leveraged Python to extrapolate and compere a subset of claims data, created compative clusters and generated easily digested in vizualizatoins. Included in this public sample is the code. Enjoy !
+In this sample, I leveraged Python to extrapolate and compere a subset of claims data, created compative clusters and generated easily digested in vizualizatoins. Included in this public sample is the code. Enjoy !
  
 
 
@@ -13,7 +13,7 @@ In my sample, I leveraged Python to extrapolate and compere a subset of claims d
 
 **Importing Libraries**
 
-What is up here?: This step involves loading necessary Python libraries that will be used throughout the notebook. These libraries include pandas for data manipulation, matplotlib and seaborn for data visualization, and sklearn for machine learning tasks. 
+What is up here?: This step involves loading necessary Python libraries that will be used throughout the notebook. These libraries include pandas for data manipulation, matplotlib and seaborn for data visualization, and sklearn for machine learning tasks. (Numpu, Statsmodel and Pandas were leveraged)
 
 **Loading the Data**
 
@@ -21,7 +21,7 @@ What is up here?: In this step, the data which contains Medicaid billing informa
 
 **Data Preprocessing**
 
-What is up here?: This step cleans and prepares the data for analysis. It may involve handling missing values, encoding categorical variables, and selecting relevant features (columns) that are necessary for the analysis.
+This step cleans and prepares the data for analysis. It may involve handling missing values, encoding categorical variables, and selecting relevant features (columns) that are necessary for the analysis.
 
 **Exploratory Data Analysis (EDA)**
 
@@ -29,7 +29,7 @@ What is up here?: EDA is conducted to understand the data better. This involves 
 
 **Applying Principal Component Analysis (PCA)**
 
-What is up here?: PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old Statistics book from High Schoolc (insert eye roll).
+PCA is a dimensionality reduction technique used here to reduce the number of variables in the data by transforming them into a new set of variables (principal components) that summarize the original variables. This step helps in simplifying the dataset while retaining essential information. I know, I know.... pull out your old Statistics book from High Schoolc (insert eye roll).
 
 
 **Clustering with K-Means**
