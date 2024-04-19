@@ -54,5 +54,6 @@ What is up here?: The final clusters are visualized using plots. Visualizations 
 
 **Conclusion and Next Steps**
 
-The notebook concludes with a summary of findings and recommendations for further analysis or operational steps to address Medicaid fraud.
-This notebook serves as a practical example of how data science techniques can be employed to address significant issues like Medicaid fraud, using real data and machine learning methods to uncover potentially fraudulent patterns.
+The visualization show how individual data points are grouped together into clusters. Each cluster represents a group of data points that are similar to each other based on the chosen features and distance metrics. The visualization can show the density of the clusters (how tightly grouped the points are) and the spread (how far the clusters extend). High-density clusters with tight grouping can indicate strong patterns, whereas sparse clusters might suggest variability or less confidence in the patterns Outliers, or data points that do not fit well into any cluster, can be visually identified. These are often displayed as points that are distant from all cluster centers.
+
+The notebook concludes with a summary of findings and recommendations for further analysis or operational steps to address Medicaid fraud. This notebook serves as a practical example of how data science techniques can be employed to address significant issues like Medicaid fraud, using real data and machine learning methods to uncover potentially fraudulent patterns.
